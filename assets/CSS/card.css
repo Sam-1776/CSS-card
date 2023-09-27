@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  background-color: rgb(14, 20, 19);
+  width: 330px;
+  margin-top: 2rem;
+  margin-inline: auto;
+  box-shadow: 0 8px 12px black;
+  border-radius: 12px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+.card h4 {
+  margin: 0;
+  color: white;
+}
+.card p{
+    color: white;
+}
+.card-content {
+  padding-inline: 9px;
+}
+.action-button {
+  text-align: center;
+}
+.action-button button {
+  border: 0;
+  font-size: 1rem;
+  background-color: rgb(245, 190, 108);
+  font-family: inherit;
+  text-transform: uppercase;
+  border-radius: 6px;
+  /* box-shadow: 0 4px 20px; */
+}
